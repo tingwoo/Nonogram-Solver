@@ -46,7 +46,7 @@ void tryArrangement(int rowLength,
 int main() {
     int col, row;
     std::string hintText;
-    std::vector<int> hint[80]; // assume at most 80 hint rows 
+    std::vector<int> hint[80]; // assume at most 80 hint cols + rows 
     bool rowsSolved[80] = {0};
     int grid[80][80];
 
